@@ -1,16 +1,64 @@
-# stolen_items_app
+# 📱 Alerta Roubos
 
-A new Flutter project.
+Aplicativo móvel desenvolvido com Flutter que permite aos cidadãos registrarem objetos roubados de forma simples e rápida. A aplicação facilita o compartilhamento dessas informações com as autoridades policiais, permitindo consultas em tempo real durante operações de segurança. O app também funciona offline e sincroniza os dados automaticamente quando a conexão com a internet estiver disponível.
 
-## Getting Started
+> **Este projeto foi desenvolvido como parte da avaliação P2 da disciplina _Desenvolvimento para Dispositivos Móveis_, do curso de Engenharia de Software ICEV.**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Objetivo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Desenvolver uma solução móvel que:
+* Auxilie a população no registro de objetos roubados.
+* Ofereça uma interface intuitiva para cadastro e consulta.
+* Permita que as autoridades consultem os dados em tempo real.
+* Armazene informações localmente em caso de ausência de conexão.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Funcionalidades
+
+* Cadastro de objetos roubados com:
+  - Nome, tipo, descrição, localização, status (roubado/recuperado)
+* Visualização em lista dos objetos registrados
+* Suporte a modo offline com armazenamento local (SQLite ou SharedPreferences)
+* Sincronização com API RESTful
+* Navegação entre telas com passagem de dados
+* Interface responsiva com uso de botões, ícones, imagens e campos de texto
+* Personalização de nome do app, ícone e identificador do pacote
+
+---
+
+## 🛠️ Tecnologias
+
+* Flutter
+* Dart
+* SQLite ou SharedPreferences (armazenamento local)
+* API RESTful (pública ou própria)
+* Gerenciamento de estado com `setState` ou outro padrão leve
+* Widgets `Stateless` e `Stateful`
+* Requisições HTTP com `http` ou `dio`
+
+---
+
+## 📱 Plataformas
+
+* Android (testado em emulador e/ou dispositivo físico)
+* Possibilidade de extensão futura para Web e iOS
+
+---
+
+## 📥 Como Baixar e Testar o Projeto
+
+### Pré-requisitos
+
+* Flutter SDK instalado ([guia oficial](https://docs.flutter.dev/get-started/install))
+* Android Studio (com emulador ou dispositivo Android conectado)
+* Git
+
+### Passos
+
+1. Clone este repositório:
+
+```bash
+git clone 

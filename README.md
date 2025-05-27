@@ -51,21 +51,21 @@ Pré-requisitos
 
 Passos
 
-    Clone este repositório:
+Clone este repositório:
 
-git clone <URL-do-repositório>
+    git clone <URL-do-repositório>
 
-    Navegue até a pasta do projeto:
+Navegue até a pasta do projeto:
 
-cd alerta-roubos
+    cd alerta-roubos
 
-    Instale as dependências:
+Instale as dependências:
 
-flutter pub get
+    flutter pub get
 
-    Execute o projeto:
-
-flutter run
+ Execute o projeto:
+ 
+    flutter run
 
 📊 Relatório do Projeto RastreIA
 Informações Gerais

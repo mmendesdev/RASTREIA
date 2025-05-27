@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413168549853",
+    "project_id": "rastreia-e58d6",
+    "storage_bucket": "rastreia-e58d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413168549853:android:c31e1f09f3d4fbd75dc034",
+        "android_client_info": {
+          "package_name": "com.securityapp.stolen_items_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuGLjmvcvLNiwLbHLez3qhX9atXRAnkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
